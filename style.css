@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: #00001e;
+  padding: 15px 0;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+
+#home {
+  position: relative;
+  height: 700px; /* full viewport height */
+  background-image: url("data/home dark.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */
+  text-align: center;
+  color: white;
+  font-size: larger;
+}
+
+#project {
+    padding: 15px;
+}
