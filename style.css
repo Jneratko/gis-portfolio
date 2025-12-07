@@ -18,7 +18,7 @@ header {
 
 #home {
   position: relative;
-  height: 700px; /* full viewport height */
+  height: 500px; /* full viewport height */
   background-image: url("data/home dark.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,6 +31,41 @@ header {
   font-size: larger;
 }
 
-#project {
-    padding: 15px;
+#home h2{
+  font-size: 38px;
+}
+#home h3{
+  padding: 20px;
+}
+
+#home p{
+text-align: center;
+width: 800px;
+padding: 20px;
+
+}
+
+#projects{
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-size: larger;
+}
+#projects h2{
+    padding: 30px;
+}
+
+#contact {
+    background-color: #1f1f47;
+    color:#ffffff;
+
+}
+
+#about {
+background-color: #1f1f47;
+color: white;
+
+}
+
+footer{
+  background-color: #00001e;
 }
